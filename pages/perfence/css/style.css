@@ -1,0 +1,102 @@
+
+/*主体部分样式*/
+.container-wrapper {
+	margin-bottom: 25px;
+	background: url(../img/优惠背景.jpg) center 0 no-repeat;
+	overflow: hidden;
+}
+
+.container-wrapper .perfence {
+	margin: 0 auto;
+	margin-top: 221px;
+	width: 1200px;
+	overflow: hidden;
+}
+.container-wrapper .perfence .text {
+	margin-top: 31px;
+	font-size: 14px;
+	color: #fff;
+}
+.container-wrapper .perfence .per-style {
+	margin: 0 auto;
+	margin-top: 115px;
+	padding: 0 60px;
+	width: 1080px;
+	/*background-color: #000;*/
+	overflow: hidden;
+}
+
+.perfence .per-style ul.left {
+	float: left;
+}
+.perfence .per-style ul.right {
+	float: right;
+}
+.perfence .per-style ul li {
+	margin-top: 47px;
+	width: 515px;
+	height: 740px;
+	color: #fff;
+	cursor: pointer;
+}
+.perfence .per-style ul li:first-child {
+	margin: 0;
+}
+.perfence .per-style ul li .per-bg {
+	height: 464px;
+	background-color: blue;
+	overflow: hidden;
+}
+.perfence .per-style ul li .per-bg img {
+	width: 100%;
+	height: 100%;
+	transition: all .5s;
+}
+.perfence .per-style ul li .per-name {
+	height: 75px;
+	line-height: 75px;
+	text-align: center;
+	background-color: #212121;
+	transition: all .3s;
+}
+.perfence .per-style ul li .per-price {
+	height: 201px;
+	background-color: rgba(0,0,0,.5);
+	overflow: hidden;
+	transition: all .3s;
+}
+.perfence .per-style ul li .per-price p {
+	font-size: 14px;
+	color: #fff;
+}
+.perfence .per-style ul li .per-price p span {
+	padding: 0 5px;
+	color: #d41616;
+}
+.perfence .per-style ul li .per-price p.price {
+	margin-top: 40px;
+	font-size: 36px;
+}
+.perfence .per-style ul li .per-price p.en {
+	margin-top: 8px;
+	font-size: 12px;
+}
+.perfence .per-style ul li .per-price p:last-child {
+	/*padding: 10px;*/
+	margin-top: 32px;
+	line-height: 20px;
+}
+.perfence .per-style ul li:hover .per-name {
+	background-color: #dd1717;
+}
+.perfence .per-style ul li:hover .per-price {
+	background-color: #6f0c0c;
+}
+.perfence .per-style ul li:hover .per-price span {
+	font-size: 18px;
+	color: #fff;
+}
+.perfence .per-style ul li:hover  .per-bg img {
+	transform: scale(1.2);
+}
+/*主体部分样式结束*/

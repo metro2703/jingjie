@@ -1,0 +1,101 @@
+
+/*主体部分样式*/
+.container-wrapper {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	width: 1200px;
+	background: url(../img/about-bg.jpg) center 0 no-repeat;
+	overflow: hidden;
+}
+.container-wrapper .content {
+	margin: 0 auto;
+	margin-top: 205px;
+	width: 786px;
+}
+.container-wrapper .content .intro {
+	margin-top: 77px;
+	text-align: left;
+	line-height: 1.8em;
+	font-size: 14px;
+}
+.container-wrapper .content .summary {
+	margin-top: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.container-wrapper .content .summary li .num {
+	position: relative;
+	font-size: 60px;
+	color: #fff;
+}
+.container-wrapper .content .summary li .num sup {
+	position: absolute;
+	margin-left: 10px;
+	width: 35px;
+	top: 10px;
+	font-size: 16px;
+	text-align: left;
+}
+.container-wrapper .content .summary li .unit {
+	margin-top: 5px;
+}
+.container-wrapper .content .summary .line {
+	display: block;
+	width: 2px;
+	height: 100px;
+	background-color: #505050;
+}
+.container-wrapper .content .essay {
+	position: relative;
+	margin-top: 130px;
+	width: 780px;
+	height: 320px;
+	line-height: 1.7em;
+	border: 3px solid #dd1717;
+}
+.container-wrapper .content .essay .title-ico {
+	position: absolute;
+	top: -22px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 246px;
+	height: 44px;
+	background: url(../../../img/logo.png) center no-repeat;
+	background-color: #000;
+}
+.container-wrapper .content .essay .left-ico {
+	position: absolute;
+	left: 40px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 50px;
+	height: 175px;
+	background: url(../img/与影随行.png) center 0 no-repeat;
+}
+.container-wrapper .content .essay .text {
+	position: absolute;
+	margin-top: 60px;
+	right: 40px;
+}
+.container-wrapper .content .essay .text p {
+	margin: 0;
+	width: 616px;
+	line-height: 2.2em;
+	font-size: 14px;
+	text-align: left;
+	text-indent: 2em;
+}
+/*主体部分样式结束*/
+
+/*固定图片*/
+.fixed-img {
+	position: fixed;
+	top: 100px;
+	right: 20px;
+	width: 296px;
+	height: 56px;
+	background: url(../img/可有可无.png) 0 0 no-repeat;
+}
+/*固定图片*/

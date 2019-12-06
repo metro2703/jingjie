@@ -1,0 +1,179 @@
+
+body, p, ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+p {
+	margin-top: 15px;
+	text-align: center;
+	font-size: 16px;
+	color: #8c8c8c;
+}
+body {
+	background-color: #000;
+}
+a {
+	text-decoration: none;
+}
+.header-wrapper, .footer-wrapper {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+/*头部样式*/
+.header {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	z-index: 2;
+}
+.header-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-wrapper .nav li {
+	position: relative;
+	float: left;
+	margin-left: 30px;
+	width: 64px;
+	height: 77px;
+	line-height: 73px;
+	text-align: right;
+}
+.header-wrapper .nav li a {
+	padding: 13px 0;
+	font-size: 16px;
+	color: #fefefe;
+}
+.header-wrapper .nav li span {
+	display: none;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 4em;
+	height: 2px;
+	background-color: #dd1717;
+}
+.header-wrapper .nav li span.first-line {
+	left: 1em;
+}
+.header-wrapper .nav li:hover a {
+	color: #dd1717;
+}
+.header-wrapper .nav li a.active {
+	color: #dd1717;
+}
+.header-wrapper .nav li:hover span {
+	display: block;
+}
+.header-wrapper .nav li span.active {
+	display: block;
+}
+/*头部样式结束*/
+
+/*title样式*/
+.title-wrapper{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 auto;
+	width: 518px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 24px;
+	color: #dd1717;
+}
+.title-wrapper .title {
+	margin: 0 auto;
+	width: 260px;
+	z-index: 99;
+}
+.title-wrapper .line {
+	width: 129px;
+	height: 2px;
+	background-color: #850e0e;
+}
+/*title样式结束*/
+
+
+/*尾部区域样式*/
+
+.footer {
+	height: 282px;
+	background-color: #000;
+}
+.footer-wrapper {
+	position: relative;
+	height: 100%;
+	font-size: 16px;
+	color: #8c8c8c;
+	overflow: hidden;
+}
+.footer-wrapper .contact, 
+.footer-wrapper .address,
+.footer-wrapper .tel {
+	position: relative;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 33.2%;
+	height: 111px;
+	border-right: 1px solid #8c8c8c;
+}
+.footer-wrapper .tel {
+	border: none;
+}
+.contact-wrapper,
+.address-wrapper,
+.tel-wrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%); 
+	width: 400px;
+}
+
+.footer-wrapper p {
+	margin: 0;
+	margin-bottom: 10px;
+	line-height: 1.6em;
+}
+
+.footer-wrapper .contact ul {
+	overflow: hidden;
+}
+.footer-wrapper .contact ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.footer-wrapper .contact ul li:last-child {
+	margin: 0;
+}
+.footer-wrapper .contact ul li a {
+	color: #545454;
+	transition: all .3s;
+}
+.footer-wrapper .contact ul li:hover a {
+	color: #DD1717;
+}
+.contact-wrapper ul li a span {
+	font-size: 25px;
+}
+
+.footer .icp {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background-color: #161616;
+}
+
+/*尾部区域样式结束*/

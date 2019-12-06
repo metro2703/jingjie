@@ -1,0 +1,132 @@
+
+/*主体部分样式*/
+.container {
+	width: 100%;
+}
+.container-wrapper {
+	background-color: #161616;
+}
+/*轮播图区块*/
+.container-wrapper .banner {
+	width: 100%;
+	position: relative;
+	height: 558px;
+	background: url(../img/man.jpg) center 0 no-repeat;
+	background-color: #000;
+}
+/*轮播图区块结束*/
+
+
+/*作品区域*/
+
+.container-wrapper .works {
+	margin: 0 auto;
+	margin-top: 114px;
+	width: 1200px;
+	overflow: hidden;
+	background-color: #161616;
+}
+.container-wrapper .works .style-list {
+	margin-top: 76px;
+	text-align: center;
+	background-color: #161616;
+}
+.container-wrapper .works .style-list li {
+	margin-left: 12px;
+	padding: 10px 20px;
+	color: #8c8c8c;
+	display: inline-block;
+	border: 1px solid #8c8c8c;
+	cursor: pointer;
+}
+.container-wrapper .works .style-list li:hover {
+	background-color: #dd1717;
+	border-color: #dd1717;
+	font-weight: 700;
+	color: #fff;
+}
+.container-wrapper .works .photo-wall {
+	margin-top: 56px;
+	overflow: hidden;
+	background-color: #161616;
+}
+.container-wrapper .works .photo-wall li {
+	position: relative;
+	margin:20px 20px 0 0;
+	float: left;
+	width: 285px;
+	height: 186px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.container-wrapper .works .photo-wall li:nth-child(4),
+.container-wrapper .works .photo-wall li:nth-child(8),
+.container-wrapper .works .photo-wall li:nth-child(12) {
+	margin-right: 0;
+}
+.container-wrapper .works .photo-wall li img {
+	width: 100%;
+	height: 100%;
+	transition: all .7s;
+}
+.container-wrapper .works .photo-wall li:hover img {
+	transform: scale(1.3);
+}
+.container-wrapper .works .photo-wall li:hover .filter {
+	top: 0;
+}
+
+.photo-wall .filter {
+	position: absolute;
+	top: 190px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.3);
+	transition: all .7s;
+}
+.photo-wall .filter .square {
+	position: relative;
+	margin: 24px auto;
+	width: 237px;
+	height: 138px;
+	/*background-color: red;*/
+	border: 1px solid #dd1717;
+}
+.photo-wall .filter .square .text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.photo-wall .filter .square .text .name {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #dd1717;
+}
+.photo-wall .filter .square .text .time {
+	margin-top: 32px;
+	font-size: 12px;
+	color: #fffefe;
+}
+
+.container-wrapper .works .page {
+	margin: 78px 0 115px;
+	overflow: hidden;
+	text-align: center;
+}
+.container-wrapper .works .page li {
+	display: inline-block;
+	margin-right: 10px;
+	width: 22px;
+	height: 22px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+.container-wrapper .works .page li.first {
+	background-color: #dd1717;
+}
+.container-wrapper .works .page li.next {
+	background-color: #0293EE;
+}
+/*作品区域结束*/

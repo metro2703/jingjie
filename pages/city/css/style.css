@@ -1,0 +1,206 @@
+/*头部样式*/
+.header {
+	background: none;
+}
+/*头部样式结束*/
+
+/*主体部分样式*/
+.container-wrapper {
+	background-color: #000;
+	width: 100%;
+}
+
+/*轮播图区块*/
+.container-wrapper .banner {
+	position: relative;
+	height: 478px;
+	background: url(../img/mountain.jpg) center 0 no-repeat;
+}
+/*轮播图区块结束*/
+
+/*title样式*/
+.title-wrapper{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0 auto;
+	width: 518px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	font-size: 24px;
+	color: #dd1717;
+}
+.title-wrapper .title {
+	margin: 0 auto;
+	width: 260px;
+	z-index: 99;
+}
+.title-wrapper .line {
+	width: 129px;
+	height: 2px;
+	background-color: #850e0e;
+}
+/*title样式结束*/
+
+.container {
+	width: 100%;
+}
+.container-wrapper {
+	background-color: #161616;
+}
+.container-wrapper .city {
+	margin: 0 auto;
+	margin-top: 114px;
+	width: 1200px;
+	overflow: hidden;
+	background-color: #161616;
+}
+.container-wrapper .city .city-photo {
+	margin: 36px 0 100px;
+	overflow: hidden;
+}
+.city .city-photo .left {
+	float: left;
+	width: 169px;
+	height: 502px;
+}
+.city .city-photo .left li {
+	height: 251px;
+	line-height: 251px;
+	text-align: center;
+	color: #8c8c8c;
+	background-color: #222222;
+	cursor: pointer;
+}
+.city .city-photo .left li:hover {
+	background-color: #7a1717;
+	color: #fff;
+}
+
+.city .city-photo .right {
+	float: right;
+	width: 1031px;
+	/*height: 100%;*/
+	overflow: hidden;
+}
+.city .city-photo .right li {
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 502px;
+	overflow: hidden;
+	cursor: pointer;
+	transform: rotateY(360deg);
+	transition: all 1s 1.5s;
+}
+.city .city-photo .right li:hover .filter {
+	/*display: block;*/
+	left: 0;
+}
+.city-photo .right li .filter {
+	/*display: none;*/
+	position: absolute;
+	top: 0;
+	left: -300px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.3);
+	transition: all .5s;
+}
+.city-photo .right li .filter .square {
+	position: relative;
+	margin: 24px auto;
+	width: 200px;
+	height: 454px;
+	/*background-color: red;*/
+	border: 1px solid #dd1717;
+}
+.city-photo .right li .filter .square .text {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.city-photo .right li .filter .square .text .name {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #dd1717;
+}
+.city-photo .right li .filter .square .text .time {
+	margin-top: 32px;
+	font-size: 12px;
+	color: #fffefe;
+}
+/*.city .city-photo .right li:hover {
+	transform: rotateY(360deg);
+}*/
+
+
+/*尾部区域样式*/
+
+.footer {
+	/*margin-top: 115px;*/
+	height: 282px;
+	background-color: #000;
+}
+.footer-wrapper {
+	position: relative;
+	height: 100%;
+	font-size: 16px;
+	color: #8c8c8c;
+	overflow: hidden;
+}
+.footer-wrapper .contact, 
+.footer-wrapper .address,
+.footer-wrapper .tel {
+	position: relative;
+	float: left;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 33.2%;
+	height: 111px;
+	border-right: 1px solid #8c8c8c;
+}
+.footer-wrapper .tel {
+	border: none;
+}
+.contact-wrapper,
+.address-wrapper,
+.tel-wrapper {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%); 
+	width: 400px;
+}
+.footer-wrapper p {
+	margin: 0;
+	margin-bottom: 10px;
+	line-height: 1.6em;
+}
+
+.footer-wrapper .contact ul {
+	overflow: hidden;
+}
+.footer-wrapper .contact ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+.footer-wrapper .contact ul li a {
+	color: #545454;
+	transition: all .3s;
+}
+.footer-wrapper .contact ul li:hover a {
+	color: #DD1717;
+}
+
+.footer .icp {
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+	background-color: #161616;
+}
+/*尾部区域样式结束

@@ -1,0 +1,98 @@
+
+/*头部样式*/
+.header {
+	position: relative;
+	background-color: #000;
+}
+/*头部样式结束*/
+
+/*主体部分样式*/
+.container {
+	background-color: #161616;
+}
+.container-wrapper {
+	margin: 0 auto;
+	width: 1200px;
+	overflow: hidden;
+}
+.container-wrapper .content {
+	margin: 0 auto 55px;
+	margin-top: 52px;
+	width: 1000px;
+}
+.container-wrapper .content .form {
+	margin-top: 92px;
+	display: flex;
+	justify-content: space-between;
+}
+.content .form .form-left {
+	width: 284px;
+	height: 214px;
+}
+.content .form .form-left .logo {
+	display: block;
+	width: 119px;
+	height: 44px;
+	background: url(../../../img/logo.png) 0 0 no-repeat;
+}
+.content .form .form-left p {
+	margin-top: 37px;
+	font-size: 14px;
+	color: #fff;
+	text-align: left;
+}
+.content .form .form-left p span {
+	color: #dd1717;
+}
+.content .form .form-right {
+	display: flex;
+	/*align-items: center;*/
+	flex-direction: column;
+	width: 535px;
+	color: #fff;
+}
+.content .form .form-right label {
+	position: relative;
+	margin: 10px 0 5px;
+	cursor: pointer;
+}
+.content .form .form-right label:first-child {
+	margin-top: 0;
+}
+.content .form .form-right label sup {
+	position: absolute;
+	top: -5px;
+	font-size: 20px;
+	color: #dd1717;
+}
+.content .form .form-right input {
+	height: 46px;
+}
+.content .form .form-right input,
+.content .form .form-right textarea {
+	background-color: #1f1f1f;
+	border: 1px solid #363636;
+	font-size: 18px;
+	color: #fff;
+	text-indent: 15px;
+	outline: none;
+}
+.content .form .form-right input:focus,
+.content .form .form-right textarea:focus {
+	border: 1px solid #dd1717;
+}
+.content .form .form-right input[type="submit"] {
+	margin: 50px auto 0;
+	width: 148px;
+	color: #fff;
+	text-indent: 0;
+	text-align: center;
+	border: none;
+	border-radius: 24px;
+	background-color: #ac0808;
+	cursor: pointer;
+}
+.content .form .form-right input[type="submit"]:hover {
+	background-color: #dd1717;
+}
+/*主体部分样式结束*/
